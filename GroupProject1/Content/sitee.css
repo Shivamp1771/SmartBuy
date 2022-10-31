@@ -1,0 +1,244 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size: 1.8rem;
+    padding-top: 20px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('../Images/bg.jpg');
+    background-size: cover;
+    background-position:center;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1450px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary{
+    padding-left:30px;
+}
+.navbar-brand > img {
+    height: 50px;
+    width: 150px;
+}
+.container-fluid{
+    background-color:whitesmoke;
+
+}
+#form1{
+    background:#f5f5f5;
+    opacity:0.9;
+}
+.container-fluid ul li a{
+    font-weight:600;
+    font-size:1.8rem;
+    list-style:none;
+    text-decoration:none;
+    color:black;
+
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+
+    .navbar-inverse .navbar-nav > li > a:hover {
+        background-color: black;
+        border-radius: 5px;
+    }
+
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+/*
+#navList li a {
+    color: white;
+    background-color: white;
+}*/
+.navbar-inverse .navbar-brand {
+    color: white;
+    font-size: 2.2rem;
+}
+
+.main-content {
+    font-size: 2.2rem;
+}
+
+#btnAdd {
+    background-color: black;
+    color: white;
+    margin-left: 140px;
+    padding: 6px 8px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+    #btnAdd:hover {
+        border: 2px solid black;
+        color: black;
+        background-color: white;
+    }
+
+.btn {
+    background-color: black;
+    color: white;
+    padding: 6px 8px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+    .btn:hover {
+        border: 2px solid black;
+        color: black;
+        background-color: white;
+    }
+
+#btnCart {
+    background-color: black;
+    color: white;
+    padding: 6px 8px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+    #btnCart:hover {
+        border: 2px solid black;
+        color: black;
+        background-color: white;
+    }
+
+#btnCheckOut {
+    background-color: black;
+    color: white;
+    padding: 6px 22px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+    #btnCheckOut:hover {
+        border: 2px solid black;
+        color: black;
+        background-color: white;
+    }
+
+#btnContinue {
+    background-color: black;
+    color: white;
+    padding: 6px 22px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+    #btnContinue:hover {
+        color:black;
+        border: 2px solid black;
+        background-color: white;
+    }
+
+#btnRemove {
+    background-color: black;
+    color: white;
+    padding: 6px 22px;
+    margin-bottom:10px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+    #btnRemove:hover {
+        border: 2px solid black;
+        color: black;
+        background-color: white;
+    }
+
+#btnEmpty {
+    background-color: black;
+    color: white;
+    padding: 6px 22px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+    #btnEmpty:hover {
+        border:2px solid black;
+        color:black;
+        background-color: white;
+    }
+
+.card_product {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-right: 1em;
+    margin-bottom: 1em;
+    width: 24rem;
+    height: 33rem;
+}
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+    padding: 1em;
+}
+
+.card-text {
+    color: black;
+    font-size: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card_product a {
+    margin:0 auto;
+    display:block;
+    font-size: 15px;
+    background-color: #982822 !important;
+    border: #982822 !important;
+}
+.main-1{
+    display:block;
+    margin:0 auto;
+    width: 45%;
+}
+.main-2{
+    margin-left:140px;
+}
+.main-content{
+    width:90%;
+}
+.pro_img {
+    height: 330px;
+    border: 2px solid black;
+    width: 305px;
+    border-radius: 5px;
+    padding: 18px;
+}
+#ddlProducts{
+     font-size:1.6rem;  
+}
+select[multiple], select[size]{
+    height:150px;
+}
+#txtQuantity{
+    font-size:1.6rem;
+}
+.card-body{
+    text-align:center;
+}
+#lstCart{
+    font-size:1.6rem;
+}
